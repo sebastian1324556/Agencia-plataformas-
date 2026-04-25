@@ -12,10 +12,18 @@ public class Vuelo {
     }
 
    
-    public String getNombre() { return nombre; }
-    public int getTelefono() { return telefono; }
-    public int getHora() { return hora; }
-    public String getUbicacion() { return ubicacion; }
+    public String getNombre() { 
+        return nombre; 
+    }
+    public int getTelefono() { 
+        return telefono; 
+    }
+    public int getHora() { 
+        return hora; 
+    }
+    public String getUbicacion() { 
+        return ubicacion; 
+    }
     public void mostrarInfo() {
         System.out.println("Vuelo: " + nombre);
         System.out.println("Teléfono: " + telefono);
@@ -39,3 +47,4 @@ public class Vuelo {
     public void mostrarInfo(String mensajePersonalizado) {
         System.out.println(mensajePersonalizado + " " + nombre);
     }
+}
