@@ -22,7 +22,7 @@ public class Vuelo {
         return telefono; 
     }
 
-    public int getHora() { 
+    public int getHora() {
         return hora; 
     }
 
