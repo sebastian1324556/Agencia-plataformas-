@@ -1,5 +1,5 @@
 public class Vuelo {
-
+    
     public String nombre;
     public int telefono;
     public int hora;
