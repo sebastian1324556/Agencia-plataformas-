@@ -51,6 +51,10 @@ public class Vuelo {
         System.out.println(mensajePersonalizado + " " + nombre);
     }
 
+
+
+
+    
     public static void main(String[] args) {
         Vuelo vuelo = new Vuelo("HPMYADMIN", 320200342, 10, "medellin", "Se ofrece un incrible bufet que va incluido en la compra del vuelo");
         
